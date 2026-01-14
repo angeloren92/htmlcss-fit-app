@@ -334,6 +334,24 @@ body {
 	font-style: italic;
 }
 
+.quote-box > p::before {
+    font-size: 50px;
+    content: "\"";
+    color: #ffffff75;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+.quote-box > p::after {
+    content: "\"";
+    font-size: 50px;
+    color: #ffffff75;
+    position: absolute;
+    right: 13px;
+    bottom: 2px;
+}
+
 /* Spacer per la navigation fissa */
 .bottom-spacer {
 	height: 80px;
