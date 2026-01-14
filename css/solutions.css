@@ -311,6 +311,17 @@ body {
 	margin-bottom: 3px;
 }
 
+/* hover effect for nav items */
+.nav-item:hover, a span:last-child:hover{
+    background-color: #00026833;
+    color: rgb(55, 91, 252);
+}
+
+.nav-item:first-child {
+    background-color: #00026833;
+    color: rgb(55, 91, 252);
+}
+
 /* Quote inspirational */
 .quote-box {
 	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
