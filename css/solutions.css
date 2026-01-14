@@ -230,6 +230,13 @@ body {
     box-shadow: 0 5px 10px rgb(83, 97, 221);
 }
 
+/* save-btn hover */
+.save-btn:hover {
+    position: relative;
+    top: -2px;
+    background: #0b4903ab;
+    box-shadow: 0 4px 15px rgb(15, 97, 15);
+}
 
 /* Progress Bar */
 .progress-section {
